@@ -1,0 +1,18 @@
+#!/bin/bash
+
+ROOTDIR="$(realpath "$(dirname "$0")")"
+TMPDIR="$ROOTDIR/tmp"
+SRCDIR="$ROOTDIR/src"
+BASEDIR="$TMPDIR/artifact"
+
+rm -rf "$TMPDIR/*" && \
+  mkdir -p "$BASEDIR/aesop" "$BASEDIR/mathlib" && \
+  cp -a data "$BASEDIR" && \
+  cp -a inner-readme.md "$BASEDIR/README.md" && \
+  pushd "$SRCDIR/aesop" > /dev/null && \
+  git archive HEAD | tar -x -C "$BASEDIR/aesop" && \
+  find "$BASEDIR/aesop" -name '*.lean' -or -name "README.md" -exec sed -i -e 's/Jannis Limperg/<redacted>/g' '{}' '+' && \
+  popd > /dev/null && \
+  pushd "$SRCDIR/mathlib" > /dev/null && \
+  git archive HEAD | tar -x -C "$BASEDIR/mathlib" && \
+  popd > /dev/null
