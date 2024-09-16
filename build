@@ -3,6 +3,6 @@
 ./mkartifact && \
   mkdir -p output && \
   cp -a outer-readme.md output/README.md && \
-  tar -caf output/artifact.tar.xz tmp/artifact/ && \
+  tar -caf output/artifact.tar.xz -C tmp/ artifact/ && \
   podman build . -t artifact:latest && \
   podman save artifact:latest | xz > output/image.tar.xz
