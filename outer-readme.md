@@ -9,7 +9,7 @@ The artifact contains two components:
   To work with the archive, simply unpack it and follow the instructions in the enclosed README.
 
 - A Docker image, `image.tar.xz`.
-  This contains the same source files as the archive, but also the correct Lean version and source files for all dependencies.
+  This contains the same source files as the archive, but also the correct versions of Lean and of all dependencies.
   Hence, the image is fully self-contained and should allow the paper's results to be reproduced even if Lean's tooling changes.
 
   To work with the image, first load it as a Docker image:
@@ -23,4 +23,4 @@ The artifact contains two components:
 
   The above command starts a `bash` shell within the container.
   See the README within the container for further instructions.
-  Note that because of the `--rm` argument, the container will be removed once you exit it.
+  Note the `--rm` argument, which will cause the container to be deleted once you exit it.

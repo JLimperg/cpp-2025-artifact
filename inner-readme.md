@@ -21,7 +21,7 @@ See the paper for details.
 In the `aesop/` directory:
 
 1. `lake build`  
-   This command downloads Lean and Aesop's dependencies and builds Aesop.
+   This command downloads Lean (which takes around 1G of disk space) and Aesop's dependencies and builds Aesop.
    It should report no errors or warnings.
 2. `lake test`  
    This command runs the Aesop test suite.
@@ -37,17 +37,17 @@ In the `mathlib/` directory:
 1. Configure the evaluation options by editing `lakefile.lean`.
    See below for details.
 2. `./evaluate <file>`
-   This command first downloads Lean and Mathlib's dependencies.
+   This command first downloads Lean (which takes around 1G of disk space) and Mathlib's dependencies.
    It then builds Mathlib, collecting Aesop timing information, and produces a report about Aesop's script generation.
    The report is saved in `<file>`.
    The command should report no errors or warnings.
 
-Note: Mathlib requires around 2G hard disk space for a full build.
+Mathlib requires around 2G additional disk space for a full build.
 
 The table in the paper was produced by manually aggregating three `./evaluate` runs for each of the three configurations.
 Output from these runs, as well as the exact configurations used, can be found in the `data/` directory.
 
-Script generations is disabled for a small number of declarations where it is buggy.
+Script generation is disabled for a small number of declarations where it is buggy.
 To find these declarations, search for the string `set_option aesop` in `Mathlib/`.
 
 ### Configuration
