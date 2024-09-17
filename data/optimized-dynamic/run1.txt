@@ -1,0 +1,80 @@
+Statistics for 6410 Aesop calls in current and imported modules
+Total Aesop time:         2739101.3ms (min = 11.6ms, avg = 427.3ms, median = 168.7ms, 80pct = 518.1ms, 95pct = 1535.1ms, 99pct = 4271.2ms, max = 35155.9ms)
+Script generation time:   673816.2ms (min = 0.6ms, avg = 105.3ms, median = 37.1ms, 80pct = 122.8ms, 95pct = 379.9ms, 99pct = 1154.7ms, max = 13762.4ms)
+Scripts generated:        6395
+- Statically  structured: 6321
+  - perfectly:            6321
+- Dynamically structured: 74
+  - perfectly:            35
+
+30 Aesop calls with slowest script generation:
+././././Mathlib/CategoryTheory/Triangulated/Functor.lean:100:75: script 13762.4ms, total 35155.9ms, type static (perfect: true)
+././././Mathlib/CategoryTheory/Triangulated/Opposite.lean:276:34: script 5800.2ms, total 13911.5ms, type static (perfect: true)
+././././Mathlib/CategoryTheory/Triangulated/Functor.lean:90:71: script 4665.2ms, total 14173.8ms, type static (perfect: true)
+././././Mathlib/Geometry/RingedSpace/PresheafedSpace.lean:463:73: script 3695.8ms, total 6247.1ms, type dynamic (perfect: false)
+././././Mathlib/CategoryTheory/Monoidal/Comon_.lean:282:2: script 3637.7ms, total 7793.0ms, type static (perfect: true)
+././././Mathlib/CategoryTheory/Triangulated/Functor.lean:100:75: script 3618.7ms, total 9777.6ms, type static (perfect: true)
+././././Mathlib/CategoryTheory/Monoidal/Bimon_.lean:74:53: script 3605.3ms, total 9911.1ms, type static (perfect: true)
+././././Mathlib/CategoryTheory/Localization/DerivabilityStructure/Constructor.lean:60:64: script 3455.1ms, total 8112.1ms, type static (perfect: true)
+././././Mathlib/CategoryTheory/Triangulated/Opposite.lean:267:8: script 3097.5ms, total 9674.6ms, type static (perfect: true)
+././././Mathlib/Algebra/Homology/DifferentialObject.lean:78:48: script 2345.4ms, total 18742.8ms, type static (perfect: true)
+././././Mathlib/CategoryTheory/Triangulated/Opposite.lean:228:58: script 2289.9ms, total 6098.1ms, type static (perfect: true)
+././././Mathlib/CategoryTheory/Triangulated/Opposite.lean:251:46: script 2273.5ms, total 8035.6ms, type static (perfect: true)
+././././Mathlib/Algebra/Homology/Bifunctor.lean:76:86: script 2236.4ms, total 6655.6ms, type static (perfect: true)
+././././Mathlib/RepresentationTheory/Action/Monoidal.lean:113:2: script 2171.2ms, total 5298.5ms, type static (perfect: true)
+././././Mathlib/CategoryTheory/Monoidal/Mod_.lean:96:55: script 2165.0ms, total 8139.4ms, type static (perfect: true)
+././././Mathlib/CategoryTheory/Triangulated/Functor.lean:132:2: script 2142.3ms, total 6510.7ms, type static (perfect: true)
+././././Mathlib/CategoryTheory/Limits/Cones.lean:852:13: script 2041.3ms, total 5068.1ms, type static (perfect: true)
+././././Mathlib/Algebra/Homology/ShortComplex/SnakeLemma.lean:522:80: script 2038.8ms, total 7154.9ms, type static (perfect: true)
+././././Mathlib/CategoryTheory/Triangulated/Functor.lean:120:56: script 2004.0ms, total 6545.6ms, type static (perfect: true)
+././././Mathlib/CategoryTheory/Limits/IsLimit.lean:519:42: script 1818.0ms, total 5885.1ms, type static (perfect: true)
+././././Mathlib/CategoryTheory/Monoidal/Bimon_.lean:74:53: script 1786.1ms, total 4911.6ms, type static (perfect: true)
+././././Mathlib/Algebra/Homology/ShortComplex/FunctorEquivalence.lean:64:57: script 1754.8ms, total 4688.7ms, type static (perfect: true)
+././././Mathlib/CategoryTheory/Monoidal/Transport.lean:162:4: script 1730.7ms, total 3993.9ms, type static (perfect: true)
+././././Mathlib/CategoryTheory/Monoidal/Bimon_.lean:74:53: script 1728.1ms, total 4840.0ms, type static (perfect: true)
+././././Mathlib/CategoryTheory/Sites/Coherent/RegularSheaves.lean:200:12: script 1720.2ms, total 4271.2ms, type static (perfect: true)
+././././Mathlib/CategoryTheory/Limits/Final.lean:491:39: script 1717.5ms, total 5650.3ms, type static (perfect: true)
+././././Mathlib/CategoryTheory/Bicategory/Free.lean:327:46: script 1687.8ms, total 5140.1ms, type static (perfect: true)
+././././Mathlib/CategoryTheory/Triangulated/Opposite.lean:209:58: script 1685.1ms, total 4527.4ms, type static (perfect: true)
+././././Mathlib/CategoryTheory/Pi/Basic.lean:326:32: script 1679.5ms, total 6370.2ms, type static (perfect: true)
+././././Mathlib/Algebra/Homology/HomotopyCategory/ShiftSequence.lean:40:2: script 1643.2ms, total 12505.1ms, type static (perfect: true)
+Statistics for 74 Aesop calls with nontrivial script generation in current and imported modules
+Total Aesop time:         60462.7ms (min = 60.2ms, avg = 817.0ms, median = 363.6ms, 80pct = 1015.7ms, 95pct = 5657.0ms, 99pct = 6441.9ms, max = 6441.9ms)
+Script generation time:   10741.5ms (min = 6.6ms, avg = 145.1ms, median = 53.0ms, 80pct = 189.1ms, 95pct = 500.4ms, 99pct = 3695.8ms, max = 3695.8ms)
+Scripts generated:        74
+- Statically  structured: 0
+  - perfectly:            0
+- Dynamically structured: 74
+  - perfectly:            35
+
+30 Aesop calls with slowest script generation:
+././././Mathlib/Geometry/RingedSpace/PresheafedSpace.lean:463:73: script 3695.8ms, total 6247.1ms, type dynamic (perfect: false)
+././././Mathlib/Analysis/CStarAlgebra/ContinuousFunctionalCalculus/Instances.lean:119:4: script 721.8ms, total 3181.8ms, type dynamic (perfect: true)
+././././Mathlib/Combinatorics/SetFamily/Shadow.lean:122:2: script 500.4ms, total 6441.9ms, type dynamic (perfect: false)
+././././Mathlib/CategoryTheory/Category/Cat.lean:178:40: script 385.1ms, total 882.0ms, type dynamic (perfect: true)
+././././Mathlib/Topology/Bases.lean:872:2: script 359.1ms, total 1558.8ms, type dynamic (perfect: false)
+././././Mathlib/CategoryTheory/Category/RelCat.lean:38:36: script 299.4ms, total 1100.3ms, type dynamic (perfect: false)
+././././Mathlib/Algebra/Order/Star/Basic.lean:343:12: script 255.8ms, total 1370.1ms, type dynamic (perfect: true)
+././././Mathlib/Topology/Bases.lean:256:2: script 234.3ms, total 1047.5ms, type dynamic (perfect: false)
+././././Mathlib/Data/Finset/Pointwise/Basic.lean:1998:47: script 232.7ms, total 807.7ms, type dynamic (perfect: true)
+././././Mathlib/Order/UpperLower/Basic.lean:169:75: script 223.5ms, total 5657.0ms, type dynamic (perfect: false)
+././././Mathlib/Order/UpperLower/Basic.lean:172:75: script 212.0ms, total 5386.3ms, type dynamic (perfect: false)
+././././Mathlib/Data/Set/Sups.lean:157:71: script 196.9ms, total 2177.4ms, type dynamic (perfect: false)
+././././Mathlib/Data/Int/CardIntervalMod.lean:48:2: script 192.3ms, total 999.0ms, type dynamic (perfect: false)
+././././Mathlib/Data/Int/CardIntervalMod.lean:55:2: script 189.1ms, total 922.4ms, type dynamic (perfect: false)
+././././Mathlib/Combinatorics/Additive/Dissociation.lean:60:32: script 182.3ms, total 1674.9ms, type dynamic (perfect: false)
+././././Mathlib/Data/Set/Sups.lean:287:71: script 176.2ms, total 2018.0ms, type dynamic (perfect: false)
+././././Mathlib/CategoryTheory/Functor/FunctorHom.lean:150:4: script 176.0ms, total 517.5ms, type dynamic (perfect: true)
+././././Mathlib/Probability/StrongLaw.lean:329:8: script 130.7ms, total 837.2ms, type dynamic (perfect: false)
+././././Mathlib/Analysis/Normed/Module/Span.lean:110:45: script 127.1ms, total 1015.7ms, type dynamic (perfect: true)
+././././Mathlib/Topology/Bases.lean:243:4: script 121.6ms, total 482.3ms, type dynamic (perfect: false)
+././././Mathlib/Algebra/Group/Subgroup/Pointwise.lean:51:30: script 120.7ms, total 849.0ms, type dynamic (perfect: true)
+././././Mathlib/GroupTheory/QuotientGroup/Basic.lean:168:75: script 98.5ms, total 498.6ms, type dynamic (perfect: true)
+././././Mathlib/Combinatorics/SimpleGraph/Operations.lean:89:45: script 98.2ms, total 362.1ms, type dynamic (perfect: true)
+././././Mathlib/Combinatorics/SimpleGraph/Operations.lean:89:70: script 91.2ms, total 376.5ms, type dynamic (perfect: true)
+././././Mathlib/Combinatorics/SimpleGraph/Operations.lean:83:45: script 90.5ms, total 337.8ms, type dynamic (perfect: true)
+././././Mathlib/Combinatorics/SimpleGraph/Operations.lean:83:70: script 80.5ms, total 363.6ms, type dynamic (perfect: true)
+././././Mathlib/Data/Finset/Sups.lean:650:24: script 78.1ms, total 1170.1ms, type dynamic (perfect: false)
+././././Mathlib/Combinatorics/Colex.lean:202:48: script 75.5ms, total 503.6ms, type dynamic (perfect: false)
+././././Mathlib/Data/Set/Basic.lean:1287:61: script 71.9ms, total 393.7ms, type dynamic (perfect: false)
+././././Mathlib/MeasureTheory/Measure/Haar/OfBasis.lean:61:2: script 68.9ms, total 766.9ms, type dynamic (perfect: false)
