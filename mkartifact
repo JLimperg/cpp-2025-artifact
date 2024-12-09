@@ -11,7 +11,6 @@ rm -rf "$TMPDIR/*" && \
   cp -a inner-readme.md "$BASEDIR/README.md" && \
   pushd "$SRCDIR/aesop" > /dev/null && \
   git archive HEAD | tar -x -C "$BASEDIR/aesop" && \
-  find "$BASEDIR/aesop" -name '*.lean' -or -name "README.md" -exec sed -i -e 's/Jannis Limperg/<redacted>/g' '{}' '+' && \
   popd > /dev/null && \
   pushd "$SRCDIR/mathlib" > /dev/null && \
   git archive HEAD | tar -x -C "$BASEDIR/mathlib" && \
