@@ -1,7 +1,7 @@
-# Artifact for "Tactic Script Optimisation for Aesop"
+# Supplement for "Tactic Script Optimisation for Aesop"
 
-This is the artifact for the paper ["Tactic Script Optimisation for Aesop"](https://doi.org/10.1145/3703595.3705877), to be published at CPP 2025.
-The artifact contains two components:
+This is the supplement for the paper ["Tactic Script Optimisation for Aesop"](https://doi.org/10.1145/3703595.3705877), to be published at CPP 2025.
+The supplement contains two components:
 
 - A tar archive, `artifact.tar.xz`.
   This contains source files and build instructions for Aesop and for the evaluation.
