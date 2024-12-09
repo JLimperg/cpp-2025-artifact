@@ -1,6 +1,6 @@
 # Artifact for "Tactic Script Optimisation for Aesop"
 
-This is the artifact for the paper "Tactic Script Optimisation for Aesop", submitted to CPP 2025.
+This is the artifact for the paper ["Tactic Script Optimisation for Aesop"](https://doi.org/10.1145/3703595.3705877), to be published at CPP 2025.
 This README contains a guide for evaluating the artifact and checking the claims made in the paper.
 
 The original READMEs of Aesop and Mathlib can be found in `aesop/` and `mathlib/`.
